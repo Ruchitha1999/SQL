@@ -1,9 +1,19 @@
-# SQL
--	The data set required advanced analysis such as ranking customers, identifying top-performing products, and comparing sales trends across segments.
--	Used SQL window functions to generate ranks, running totals, moving averages, and segment-wise comparisons to answer complex business questions.
-- Applied window functions like ROW_NUMBER(), RANK(), DENSE_RANK() to create customer rankings, detect trends, and perform time-based comparisons.
-- Created partitioned analytical queries to compare performance across categories, cities, and customer groups.
-- Optimised queries by restructuring sub queries and properly using indexes.
--	Delivered accurate insights that previously required manual effort and reduced analysis time by over 50%.
+# SQL Analytics Project
+
+This repository contains sample SQL scripts demonstrating the use of window functions, ranking, trend analysis, and performance-optimized analytical queries.
+
+## Files Included
+
+- **customer_ranking.sql** – Customer ranking using ROW_NUMBER(), RANK(), and DENSE_RANK().
+- **sales_trends.sql** – Running totals, moving averages, and trend comparisons.
+- **segment_comparison.sql** – Category, city, and customer-segment level performance comparisons.
+- **performance_optimisation.sql** – Query restructuring and index usage examples.
+
+These scripts are based on tasks such as:
+- Ranking customers and identifying top performers  
+- Comparing sales trends across segments  
+- Using window functions to generate advanced insights  
+- Improving performance using indexing and optimized query structure  
+
 
 
